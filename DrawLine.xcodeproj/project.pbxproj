@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333B9FCE1FB2F8D000D1A4E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 333B9FCD1FB2F8D000D1A4E7 /* AppDelegate.m */; };
+		333B9FD11FB2F8D000D1A4E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333B9FD01FB2F8D000D1A4E7 /* ViewController.m */; };
+		333B9FD41FB2F8D000D1A4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333B9FD21FB2F8D000D1A4E7 /* Main.storyboard */; };
+		333B9FD61FB2F8D000D1A4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333B9FD51FB2F8D000D1A4E7 /* Assets.xcassets */; };
+		333B9FD91FB2F8D000D1A4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333B9FD71FB2F8D000D1A4E7 /* LaunchScreen.storyboard */; };
+		333B9FDC1FB2F8D000D1A4E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 333B9FDB1FB2F8D000D1A4E7 /* main.m */; };
+		333B9FEF1FB3E4D400D1A4E7 /* YYKLoupe.m in Sources */ = {isa = PBXBuildFile; fileRef = 333B9FEC1FB3E4D400D1A4E7 /* YYKLoupe.m */; };
+		333B9FF01FB3E4D400D1A4E7 /* YYKMagnifyingGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 333B9FEE1FB3E4D400D1A4E7 /* YYKMagnifyingGlass.m */; };
+		333B9FF61FB3E97100D1A4E7 /* YYKArcDrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 333B9FF51FB3E97100D1A4E7 /* YYKArcDrawLineView.m */; };
+		333B9FFB1FB3ECFB00D1A4E7 /* YYKDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333B9FF91FB3ECFB00D1A4E7 /* YYKDrawLineViewController.m */; };
+		333B9FFC1FB3ECFB00D1A4E7 /* YYKDrawLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333B9FFA1FB3ECFB00D1A4E7 /* YYKDrawLineViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		333B9FC91FB2F8D000D1A4E7 /* DrawLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333B9FCC1FB2F8D000D1A4E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		333B9FCD1FB2F8D000D1A4E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		333B9FCF1FB2F8D000D1A4E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		333B9FD01FB2F8D000D1A4E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		333B9FD31FB2F8D000D1A4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333B9FD51FB2F8D000D1A4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333B9FD81FB2F8D000D1A4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		333B9FDA1FB2F8D000D1A4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333B9FDB1FB2F8D000D1A4E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		333B9FEB1FB3E4D400D1A4E7 /* YYKLoupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKLoupe.h; sourceTree = "<group>"; };
+		333B9FEC1FB3E4D400D1A4E7 /* YYKLoupe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKLoupe.m; sourceTree = "<group>"; };
+		333B9FED1FB3E4D400D1A4E7 /* YYKMagnifyingGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKMagnifyingGlass.h; sourceTree = "<group>"; };
+		333B9FEE1FB3E4D400D1A4E7 /* YYKMagnifyingGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKMagnifyingGlass.m; sourceTree = "<group>"; };
+		333B9FF41FB3E97100D1A4E7 /* YYKArcDrawLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKArcDrawLineView.h; sourceTree = "<group>"; };
+		333B9FF51FB3E97100D1A4E7 /* YYKArcDrawLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYKArcDrawLineView.m; sourceTree = "<group>"; };
+		333B9FF71FB3EA5400D1A4E7 /* DrawLine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawLine.pch; sourceTree = "<group>"; };
+		333B9FF81FB3ECFB00D1A4E7 /* YYKDrawLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKDrawLineViewController.h; sourceTree = "<group>"; };
+		333B9FF91FB3ECFB00D1A4E7 /* YYKDrawLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYKDrawLineViewController.m; sourceTree = "<group>"; };
+		333B9FFA1FB3ECFB00D1A4E7 /* YYKDrawLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YYKDrawLineViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333B9FC61FB2F8D000D1A4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333B9FC01FB2F8D000D1A4E7 = {
+			isa = PBXGroup;
+			children = (
+				333B9FCB1FB2F8D000D1A4E7 /* DrawLine */,
+				333B9FCA1FB2F8D000D1A4E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333B9FCA1FB2F8D000D1A4E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333B9FC91FB2F8D000D1A4E7 /* DrawLine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333B9FCB1FB2F8D000D1A4E7 /* DrawLine */ = {
+			isa = PBXGroup;
+			children = (
+				333B9FEA1FB3E4D400D1A4E7 /* magnifier */,
+				333B9FE91FB3E4CE00D1A4E7 /* drawline */,
+				333B9FCC1FB2F8D000D1A4E7 /* AppDelegate.h */,
+				333B9FCD1FB2F8D000D1A4E7 /* AppDelegate.m */,
+				333B9FCF1FB2F8D000D1A4E7 /* ViewController.h */,
+				333B9FD01FB2F8D000D1A4E7 /* ViewController.m */,
+				333B9FD21FB2F8D000D1A4E7 /* Main.storyboard */,
+				333B9FD51FB2F8D000D1A4E7 /* Assets.xcassets */,
+				333B9FD71FB2F8D000D1A4E7 /* LaunchScreen.storyboard */,
+				333B9FDA1FB2F8D000D1A4E7 /* Info.plist */,
+				333B9FDB1FB2F8D000D1A4E7 /* main.m */,
+				333B9FF71FB3EA5400D1A4E7 /* DrawLine.pch */,
+			);
+			path = DrawLine;
+			sourceTree = "<group>";
+		};
+		333B9FE91FB3E4CE00D1A4E7 /* drawline */ = {
+			isa = PBXGroup;
+			children = (
+				333B9FF41FB3E97100D1A4E7 /* YYKArcDrawLineView.h */,
+				333B9FF51FB3E97100D1A4E7 /* YYKArcDrawLineView.m */,
+				333B9FF81FB3ECFB00D1A4E7 /* YYKDrawLineViewController.h */,
+				333B9FF91FB3ECFB00D1A4E7 /* YYKDrawLineViewController.m */,
+				333B9FFA1FB3ECFB00D1A4E7 /* YYKDrawLineViewController.xib */,
+			);
+			path = drawline;
+			sourceTree = "<group>";
+		};
+		333B9FEA1FB3E4D400D1A4E7 /* magnifier */ = {
+			isa = PBXGroup;
+			children = (
+				333B9FEB1FB3E4D400D1A4E7 /* YYKLoupe.h */,
+				333B9FEC1FB3E4D400D1A4E7 /* YYKLoupe.m */,
+				333B9FED1FB3E4D400D1A4E7 /* YYKMagnifyingGlass.h */,
+				333B9FEE1FB3E4D400D1A4E7 /* YYKMagnifyingGlass.m */,
+			);
+			path = magnifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333B9FC81FB2F8D000D1A4E7 /* DrawLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333B9FDF1FB2F8D000D1A4E7 /* Build configuration list for PBXNativeTarget "DrawLine" */;
+			buildPhases = (
+				333B9FC51FB2F8D000D1A4E7 /* Sources */,
+				333B9FC61FB2F8D000D1A4E7 /* Frameworks */,
+				333B9FC71FB2F8D000D1A4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawLine;
+			productName = DrawLine;
+			productReference = 333B9FC91FB2F8D000D1A4E7 /* DrawLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333B9FC11FB2F8D000D1A4E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YYK;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "杨亚坤";
+				TargetAttributes = {
+					333B9FC81FB2F8D000D1A4E7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 333B9FC41FB2F8D000D1A4E7 /* Build configuration list for PBXProject "DrawLine" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333B9FC01FB2F8D000D1A4E7;
+			productRefGroup = 333B9FCA1FB2F8D000D1A4E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333B9FC81FB2F8D000D1A4E7 /* DrawLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333B9FC71FB2F8D000D1A4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333B9FFC1FB3ECFB00D1A4E7 /* YYKDrawLineViewController.xib in Resources */,
+				333B9FD91FB2F8D000D1A4E7 /* LaunchScreen.storyboard in Resources */,
+				333B9FD61FB2F8D000D1A4E7 /* Assets.xcassets in Resources */,
+				333B9FD41FB2F8D000D1A4E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333B9FC51FB2F8D000D1A4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333B9FFB1FB3ECFB00D1A4E7 /* YYKDrawLineViewController.m in Sources */,
+				333B9FD11FB2F8D000D1A4E7 /* ViewController.m in Sources */,
+				333B9FDC1FB2F8D000D1A4E7 /* main.m in Sources */,
+				333B9FCE1FB2F8D000D1A4E7 /* AppDelegate.m in Sources */,
+				333B9FF01FB3E4D400D1A4E7 /* YYKMagnifyingGlass.m in Sources */,
+				333B9FF61FB3E97100D1A4E7 /* YYKArcDrawLineView.m in Sources */,
+				333B9FEF1FB3E4D400D1A4E7 /* YYKLoupe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		333B9FD21FB2F8D000D1A4E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333B9FD31FB2F8D000D1A4E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		333B9FD71FB2F8D000D1A4E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333B9FD81FB2F8D000D1A4E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		333B9FDD1FB2F8D000D1A4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		333B9FDE1FB2F8D000D1A4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333B9FE01FB2F8D000D1A4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZEYU2G963;
+				GCC_PREFIX_HEADER = DrawLine/DrawLine.pch;
+				INFOPLIST_FILE = DrawLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyk.DrawLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		333B9FE11FB2F8D000D1A4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZEYU2G963;
+				GCC_PREFIX_HEADER = DrawLine/DrawLine.pch;
+				INFOPLIST_FILE = DrawLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyk.DrawLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333B9FC41FB2F8D000D1A4E7 /* Build configuration list for PBXProject "DrawLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333B9FDD1FB2F8D000D1A4E7 /* Debug */,
+				333B9FDE1FB2F8D000D1A4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333B9FDF1FB2F8D000D1A4E7 /* Build configuration list for PBXNativeTarget "DrawLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333B9FE01FB2F8D000D1A4E7 /* Debug */,
+				333B9FE11FB2F8D000D1A4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 333B9FC11FB2F8D000D1A4E7 /* Project object */;
+}

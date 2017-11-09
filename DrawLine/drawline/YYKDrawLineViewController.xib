@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YYKDrawLineViewController">
+            <connections>
+                <outlet property="showLineImageView" destination="E1r-yI-7UP" id="4zM-Xk-hnb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E1r-yI-7UP">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wH8-8q-qJz">
+                    <rect key="frame" x="188" y="0.0" width="187" height="44"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="QmT-w1-BZN"/>
+                    </constraints>
+                    <state key="normal" title="恢复">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="undo:" destination="-1" eventType="touchUpInside" id="reV-bI-Y1T"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01s-Tx-ZqT">
+                    <rect key="frame" x="0.0" y="0.0" width="187" height="44"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="lZ5-kL-jC8"/>
+                    </constraints>
+                    <state key="normal" title="撤销">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="redo:" destination="-1" eventType="touchUpInside" id="2Ri-yb-V3c"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wH8-8q-qJz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BoT-pQ-3QC"/>
+                <constraint firstItem="wH8-8q-qJz" firstAttribute="leading" secondItem="01s-Tx-ZqT" secondAttribute="trailing" constant="1" id="GJg-co-776"/>
+                <constraint firstAttribute="bottom" secondItem="E1r-yI-7UP" secondAttribute="bottom" id="QxH-N8-vPr"/>
+                <constraint firstItem="01s-Tx-ZqT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RI3-my-Oeh"/>
+                <constraint firstItem="E1r-yI-7UP" firstAttribute="top" secondItem="01s-Tx-ZqT" secondAttribute="bottom" id="UkI-Ez-cAO"/>
+                <constraint firstAttribute="trailing" secondItem="E1r-yI-7UP" secondAttribute="trailing" id="dvl-uB-XQP"/>
+                <constraint firstItem="wH8-8q-qJz" firstAttribute="width" secondItem="01s-Tx-ZqT" secondAttribute="width" id="hzX-1k-wei"/>
+                <constraint firstItem="01s-Tx-ZqT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pb2-b5-3mu"/>
+                <constraint firstItem="E1r-yI-7UP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pwf-qt-d4O"/>
+                <constraint firstAttribute="trailing" secondItem="wH8-8q-qJz" secondAttribute="trailing" id="q8B-p7-tOb"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
